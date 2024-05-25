@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Huertas HW#2 Responsive Grid</title>
+</head>
+    <body>
+        <h1 class="hidden"> Responsive Grid</h1>
+        <header class="grid-con">
+                <h2 class="hidden"> Header </h2>
+                <div id="logo" class="box-1 col-start-1 col-end-4 m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-2"> Logo</div>
+                <div id="nav" class="box-1 col-start-4 col-end-5 m-col-start-7 m-col-end-13 l-col-start-2 l-col-end-13"> Nav</div>
+        </header>
+
+        <main>
+            <h2 class="hidden"> Main Content</h2>
+
+            <div class="grid-con">
+                <h2 class="hidden">Hero Image</h2>
+                <div id="hero-image" class="box-3 col-span-full"> Hero Image</div>
+            </div>
+
+            <div class="grid-con">
+                <h2 class="hidden">Products</h2>
+                <div id="product-1" class="box-2 col-start-1 col-end-5 m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7"> Product 1</div>
+                <div id="product-2" class="box-2 col-start-1 col-end-5 m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13"> Product 2</div>
+            </div>
+
+            <div class="grid-con">
+                <h2 class="hidden">Services</h2>
+                <div id="service-1" class="box-2 col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-4">Service 1</div>
+                <div id="service-2" class="box-2 col-start-3 col-end-5 m-col-start-5 m-col-end-9 l-col-start-4 l-col-end-7">Service 2</div>
+                <div id="service-3" class="box-2 col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-start-7 l-col-end-10">Service 3</div>
+                <div id="service-4" class="box-2 col-start-3 col-end-5 m-col-start-1 m-col-end-5 l-col-start-10 l-col-end-13">Service 4</div>
+                <div id="service-5" class="box-2 col-start-1 col-end-3 m-col-start-5 m-col-end-9 l-col-start-1 l-col-end-4">Service 5</div>
+                <div id="image-desktop" class="box-2 hide-element l-col-start-4 l-col-end-10 show-element">Image</div>
+                <div id="service-6" class="box-2 col-start-3 col-end-5 m-col-start-9 m-col-end-13 l-col-start-10 l-col-end-13">Service 6</div>
+
+            </div>
+        </main>
+
+        <footer class="grid-con">
+            <h2 class="hidden">Footer</h2>
+            <div id="footer" class="box-2 col-span-full">Footer</div>
+        </footer>
+        <script src="js/main.js"></script>   
+    </body>
+</html>
