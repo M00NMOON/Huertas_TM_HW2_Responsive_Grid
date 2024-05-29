@@ -115,7 +115,9 @@
   #hero-image {
     padding: 80px 0px;
   }
-  
+   #nav {
+    text-align: right;
+   }
   .m-col-span-full {grid-column: 1/ -1;}
   
   .m-col-start-1 {grid-column-start: 1;}
@@ -190,7 +192,11 @@
   
   /* 4. ---Desktop Library Grid Styles--- */
   @media screen and (min-width: 1200px){
-    
+  
+    #nav {
+      text-align: right;
+     }
+     
   .l-col-start-1 {grid-column-start: 1;}
   .l-col-start-2 {grid-column-start: 2;}
   .l-col-start-3 {grid-column-start: 3;}
